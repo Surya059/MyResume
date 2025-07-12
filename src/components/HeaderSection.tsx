@@ -32,9 +32,13 @@ export const HeaderSection = () => (
         </a>
       </span>
     </div>
+    <Button
+  className="mt-2 bg-black text-white hover:bg-gray-900"
+  onClick={() => window.print()}
+>
+  Download PDF
+</Button>
 
-    <Button variant="default" className="mt-2" onClick={() => window.print()}>
-      Download PDF
-    </Button>
+
   </header>
 )
